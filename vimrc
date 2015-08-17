@@ -145,3 +145,4 @@ autocmd BufNewFile,BufRead *.txt,*.py,*.sh,*.tks,*.pl,*.exp,*.awk,*.sed,*.php,*.
 autocmd BufRead Makefile set noexpandtab
 
 set showcmd
+"set mouse=a
