@@ -146,3 +146,4 @@ autocmd BufRead Makefile set noexpandtab
 
 set showcmd
 "set mouse=a
+"set mouse=v
