@@ -147,3 +147,6 @@ autocmd BufRead Makefile set noexpandtab
 set showcmd
 "set mouse=a
 "set mouse=v
+"enable highlight & disable highlight when vim searching
+set hls
+"set nohls
