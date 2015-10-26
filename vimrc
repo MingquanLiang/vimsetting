@@ -60,7 +60,12 @@ let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Show_One_File = 0 " Open more than one windows
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
-set tags=tags
+"set tags=tags
+let ctags_file_path=findfile("tags",".;")
+if !empty(ctags_file_path)
+	exe "set tags=".ctags_file_path
+endif
+
 "set autochdir
 " ==============================Set Ctags=================================== "
 
