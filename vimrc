@@ -150,3 +150,6 @@ set showcmd
 "enable highlight & disable highlight when vim searching
 set hls
 "set nohls
+
+"ctags -R --c++-kinds=+p --field=+iaS --extra=+q
+"cscope -Rbq
